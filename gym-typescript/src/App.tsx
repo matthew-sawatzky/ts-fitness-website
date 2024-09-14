@@ -1,9 +1,14 @@
-
+import Navbar from "@/scenes/navbar/index";
+import { useState } from "react";
 
 function App() {
+  const [selectedPage, setSelectedPage] = useState<string>("home");
+
   return (
     <>
-      <div className="app">app</div>
+      <div className="app bg-gray-20">
+        <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+      </div>
     </>
   );
 }
