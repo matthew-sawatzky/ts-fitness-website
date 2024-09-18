@@ -5,6 +5,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import ActionButton from "@/shared/ActionButton";
+import "../../index.css";
 
 type Props = {
   isTopOfPage: boolean;
@@ -25,7 +26,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
       >
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
-            <img alt="logo" src={Logo} />
+            <img id="bluesky-logo" alt="logo" src={Logo} />
             {isAboveMediumScreens ? (
               <div className={`${flexBetween} w-full`}>
                 <div className={`${flexBetween} gap-8 text-sm`}>

@@ -12,3 +12,8 @@ body,
   width: 100%;
   font-family: "DM Sans", sans-serif;
 }
+
+#bluesky-logo {
+    max-width: 150px;
+    height: auto;
+}
