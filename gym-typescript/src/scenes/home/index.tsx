@@ -3,9 +3,12 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/ActionButton";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
-import SponsorForbes from "@/assets/SponsorForbes.png";
-import SponsorFortune from "@/assets/SponsorFortune.png";
+import EmailLogo from "@/assets/EmailLogo.png";
+import FacebookLogo from "@/assets/FacebookLogo.png";
+import InstagramLogo from "@/assets/InstagramLogo.png";
+import LinkedInLogo from "@/assets/LinkedInLogo.png";
+import TwitterLogo from "@/assets/TwitterLogo.png";
+import YoutubeLogo from "@/assets/YoutubeLogo.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -18,8 +21,10 @@ function Home({ setSelectedPage }: Props) {
 
   return (
     <section id="home" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
-      <motion.div className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6"
-      onViewportEnter={() => setSelectedPage(SelectedPage.Home)}>
+      <motion.div
+        className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6"
+        onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
+      >
         <div className="z-10 mt-32 md:basis-3/5">
           <motion.div
             className="md:-mt-20"
@@ -37,7 +42,22 @@ function Home({ setSelectedPage }: Props) {
                 <img alt="home-page-text" src={HomePageText} />
               </div>
             </div>
-            <p className="mt-8 text-sm">Blue Sky Fitness Description</p>
+            <p className="mt-8 text-sm">
+              Blue Sky is a small boutique style fitness studio with a big heart
+              located in the community of St. Vital on St. Anne’s Road in
+              Winnipeg Manitoba.
+            </p>
+            <p className="mt-8 text-sm">
+              If you are tired of being a number in a big gym floundering and
+              not getting the results you crave… wish you could just show up and
+              be taken through a great workout in only 45 minutes all the while
+              feeling like you are part of a family, then you’ve come to the
+              right place.
+            </p>
+            <p className="mt-8 text-sm">
+              As a boutique style studio you can expect an entirely different
+              experience when you walk through our doors.
+            </p>
           </motion.div>
           <motion.div
             className="mt-8 flex items-center gap-8"
@@ -71,9 +91,12 @@ function Home({ setSelectedPage }: Props) {
         <div className="h-[150px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-5/6">
             <div className="flex w-3/5 items-center justify-between gap-8">
-              <img alt="redbull-sponsor" src={SponsorRedBull} />
-              <img alt="forbes-sponsor" src={SponsorForbes} />
-              <img alt="fortune-sponsor" src={SponsorFortune} />
+              <img alt="email" src={EmailLogo} />
+              <img alt="facebook" src={FacebookLogo} />
+              <img alt="instagram" src={InstagramLogo} />
+              <img alt="linkedIn" src={LinkedInLogo} />
+              <img alt="twitter" src={TwitterLogo} />
+              <img alt="youtube" src={YoutubeLogo} />
             </div>
           </div>
         </div>

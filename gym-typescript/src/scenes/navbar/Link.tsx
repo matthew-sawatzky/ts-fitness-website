@@ -15,7 +15,9 @@ const Link = ({ page, selectedPage, setSelectedPage }: Props) => {
             transition duration-500 hover:text-primary-300
             `}
       href={`#${lowerCasePage}`}
+      offset={() => 60} // Adjust the offset value as needed
       onClick={() => setSelectedPage(lowerCasePage)}
+      
     >
       {page}
     </AnchorLink>

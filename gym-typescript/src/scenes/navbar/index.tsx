@@ -52,7 +52,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
-                  <p>Sign In</p>
+                  <a href="https://www.mindbodyonline.com/explore/locations/blue-sky-fitness-and-health-coaching">
+                    Class Schedule
+                  </a>
                   <ActionButton setSelectedPage={setSelectedPage}>
                     Become a Member
                   </ActionButton>

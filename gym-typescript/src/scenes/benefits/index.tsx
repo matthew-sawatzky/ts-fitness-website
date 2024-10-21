@@ -18,12 +18,12 @@ const benefits: Array<BenefitType> = [
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "Modern Equipment",
+    title: "Welcoming Community",
     description: "description",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Modern Equipment",
+    title: "Experienced Trainers",
     description: "description",
   },
 ];
