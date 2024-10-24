@@ -19,7 +19,7 @@ const classes: Array<ClassType> = [
   {
     name: "Senior Fit Classes",
     description:
-      "Meet new friends all the while improving your quality of life! Our classes are taught by Certified Fitness Professionals.",
+      "Meet new friends all the while improving your quality of life! Enjoy feeling alive, strong and energetic into your later years by keeping active.",
     image: image2,
   },
   {
@@ -71,7 +71,18 @@ const OurClasses = ({ setSelectedPage }: Props) => {
         >
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
-            <p className="py-5">description</p>
+            <p className="py-5">
+              BlueSky offers a wide variety of classes meant to cater to anyones
+              need. From personal training to senior fit, anyone can find a warm
+              home at BlueSky.
+            </p>
+            <p>
+              Our mission is to deliver a variety of high quality, up to date,
+              innovative, challenging, small group classes and personal training
+              sessions in a non-intimidating, personal, fun and inclusive
+              environment. We strive to move our clients to better health and
+              fitness and provide them with the tools to get there.
+            </p>
           </div>
         </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">

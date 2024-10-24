@@ -2,7 +2,7 @@ import { SelectedPage } from "../../shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/ActionButton";
 import HomePageText from "@/assets/HomePageText.png";
-import HomePageGraphic from "@/assets/HomePageGraphic.png";
+import HomePageGraphic from "@/assets/HomePageGraphic.jpg";
 import EmailLogo from "@/assets/EmailLogo.png";
 import FacebookLogo from "@/assets/FacebookLogo.png";
 import InstagramLogo from "@/assets/InstagramLogo.png";
@@ -83,20 +83,60 @@ function Home({ setSelectedPage }: Props) {
           </motion.div>
         </div>
 
-        <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
-          <img alt="home-page-graphic" src={HomePageGraphic} />
+        <div className="flex basis-3/5 justify-center mt-8 md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
+          <img
+            alt="home-page-graphic"
+            src={HomePageGraphic}
+            className="rounded-lg"
+          />
         </div>
       </motion.div>
       {isAboveMediumScreens && (
         <div className="h-[150px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-5/6">
-            <div className="flex w-3/5 items-center justify-between gap-8">
-              <img alt="email" src={EmailLogo} />
-              <img alt="facebook" src={FacebookLogo} />
-              <img alt="instagram" src={InstagramLogo} />
-              <img alt="linkedIn" src={LinkedInLogo} />
-              <img alt="twitter" src={TwitterLogo} />
-              <img alt="youtube" src={YoutubeLogo} />
+            <div className="flex w-3/5 items-center justify-between gap-18">
+              <a
+                href="mailto:info@blueskyfitnessandhealthcoaching.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img alt="email" src={EmailLogo} />
+              </a>
+              <a
+                href="https://www.facebook.com/blueskyfitnesssstudio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img alt="facebook" src={FacebookLogo} />
+              </a>
+              <a
+                href="https://www.instagram.com/blueskyfitnessstudio/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img alt="instagram" src={InstagramLogo} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/blueskyfitness/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img alt="linkedIn" src={LinkedInLogo} />
+              </a>
+              <a
+                href="https://x.com/BlueSkyFitness"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img alt="twitter" src={TwitterLogo} />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCNpDQLNlfcmPing3l4qXFMg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img alt="youtube" src={YoutubeLogo} />
+              </a>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import ContactUsPageGraphic from "../../assets/ContactUsPageGraphic.png";
+import ContactUsPageGraphic from "../../assets/ContactUsPageGraphic.jpeg";
 import HText from "@/shared/HText";
 import { SelectedPage } from "@/shared/types";
 
@@ -40,9 +40,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW </span>TO GET IN SHAPE
+            <span className="text-primary-500">JOIN NOW </span>TO FEEL BETTER EVERY DAY.
           </HText>
-          <p className="my-5">description</p>
+          <p className="my-5">Message us to learn more about what we offer and how we can help you reach your fullest potential.</p>
         </motion.div>
         <div className="mt-10 justify-between gap-8 md:flex">
           <motion.div
@@ -126,11 +126,11 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
             >
                 <div className="md:before:content-evolvetext w-full before:absolute before:bottom-20 before:-right-10 before:z-[-1]">
-                    <img 
-                    className="w-full"
+                  <img 
+                    className="w-full rounded-lg"
                     alt="contact-us-page-graphic"
                     src={ContactUsPageGraphic}
-                    />
+                  />
                 </div>
           </motion.div>
         </div>
