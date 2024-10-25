@@ -40,7 +40,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW </span>TO FEEL BETTER EVERY DAY.
+            <span className="text-primary-500">JOIN NOW </span>TO FEEL BETTER. EVERY. DAY.
           </HText>
           <p className="my-5">Message us to learn more about what we offer and how we can help you reach your fullest potential.</p>
         </motion.div>

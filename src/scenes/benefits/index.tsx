@@ -21,13 +21,13 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "Modern Equipment",
     description:
-      "At BlueSky we have the latest modern equipment to help you reach your fullest potential. Our studio is equipped with everything you need from treadmills to bikes to get the best workout possible. For a small studio, we have a lot to offer!",
+      "At BlueSky, we have the latest equipment to help you reach your fullest potential. Our studio is equipped with everything you need from treadmills to bikes to get the best workout possible. We are constantly updating our equipment to make sure you have the best experience possible. For a small studio, we have a lot to offer!",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "Welcoming Community",
     description:
-      "It’s not just workout, sweat, go. We want you to feel like our studio is a second home where you can meet lifelong friends. Granted, one that’s full of dumbbells and yoga mats. 😉 We encourage you to share what you are grateful for on our Gratitude Wall or chat with us in studio or via social media. The Blue Sky Family always has your back.",
+      "It’s not just workout, we want you to feel like our studio is a second home where you can meet lifelong friends. Granted, one that’s full of dumbbells and yoga mats. We encourage you to share what you are grateful for on our Gratitude Wall or chat with us in studio or via social media. The Blue Sky Family always has your back.",
   },
 ];
 

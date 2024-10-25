@@ -25,7 +25,7 @@ const classes: Array<ClassType> = [
   {
     name: "Personal Training",
     description:
-      "Hello, welcome to your new favourite ting: Accountability plus Results.",
+      "Hello, welcome to your new favourite thing: Accountability plus Results.",
     image: image3,
   },
   {
@@ -85,7 +85,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             </p>
           </div>
         </motion.div>
-        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+        <div className="mt-10  w-full overflow-x-auto overflow-y-hidden">
           <ul className="w-[2800px] whitespace-nowrap relative z-10">
             {classes.map((item: ClassType, index) => (
               <Class
