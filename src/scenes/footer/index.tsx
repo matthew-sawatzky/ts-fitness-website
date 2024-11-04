@@ -30,9 +30,9 @@ const Footer = () => {
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">468 St. Anne’s Rd., Winnipeg, MB</p>
-          <p className="my-5">info@blueskyfitnessandhealthcoaching.com</p>
-          <p>(204) 979-5284</p>
+          <p className="my-5">123 Streed Rd. , City, Province</p>
+          <p className="my-5">blueskyemail@contact.com</p>
+          <p>(123) 456-7890</p>
         </div>
       </div>
     </footer>

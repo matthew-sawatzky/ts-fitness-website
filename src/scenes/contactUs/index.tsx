@@ -40,9 +40,13 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW </span>TO FEEL BETTER. EVERY. DAY.
+            <span className="text-primary-500">JOIN NOW </span>TO FEEL BETTER.
+            EVERY. DAY.
           </HText>
-          <p className="my-5">Message us to learn more about what we offer and how we can help you reach your fullest potential.</p>
+          <p className="my-5">
+            Message us to learn more about what we offer and how we can help you
+            reach your fullest potential.
+          </p>
         </motion.div>
         <div className="mt-10 justify-between gap-8 md:flex">
           <motion.div
@@ -115,23 +119,24 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             </form>
           </motion.div>
 
-          <motion.div className="relative mt-16 basis-2/5 md:mt-0"
-            initial="hidden" whileInView="visible" viewport=
-            {{ once: true, amount: 0.5 }}
+          <motion.div
+            className="relative mt-16 basis-2/5 md:mt-0"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ delay: 0.2, duration: 1 }}
-            variants=
-            {{
+            variants={{
               hidden: { opacity: 0, y: -50 },
               visible: { opacity: 1, y: 0 },
             }}
-            >
-                <div className="md:before:content-evolvetext w-full before:absolute before:bottom-20 before:-right-10 before:z-[-1]">
-                  <img 
-                    className="w-full rounded-lg"
-                    alt="contact-us-page-graphic"
-                    src={ContactUsPageGraphic}
-                  />
-                </div>
+          >
+            <div className="md:before:content-evolvetext w-full before:absolute before:bottom-20 before:-right-10 before:z-[-1]">
+              <img
+                className="w-full rounded-lg"
+                alt="contact-us-page-graphic"
+                src={ContactUsPageGraphic}
+              />
+            </div>
           </motion.div>
         </div>
       </motion.div>

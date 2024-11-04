@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+# BlueSky Fitness & Health Coaching Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a landing page for BlueSky Fitness & Health Coaching, a local fitness studio. The landing page was created to provide information about the studio, its classes, trainers, and contact details. It also includes smooth scrolling navigation and responsive design to ensure a great user experience on all devices.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Responsive Design**: The landing page is fully responsive and works seamlessly on all devices, including desktops, tablets, and mobile phones.
+- **Smooth Scrolling Navigation**: The navigation links provide smooth scrolling to different sections of the page.
+- **Class Information**: Detailed information about the various classes offered by the studio.
+- **Trainer Profiles**: Information about the experienced trainers at BlueSky Fitness & Health Coaching.
+- **Contact Form**: A contact form for users to get in touch with the studio.
+- **Social Media Links**: Links to the studio's social media profiles.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion**: A library for animations and gestures in React.
+- **Vite**: A fast build tool and development server for modern web projects.
+
+## Installation
+
+To get started with the project, follow these steps:
+
+Clone the Repository.
+
+```sh
+git clone https://github.com/your-username/bluesky-fitness-landing-page.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Navigate to the Project.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```sh
+cd ts-fitness-website
+```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+Install Dependencies.
+
+```sh
+npm install
+```
+
+Run the Project on Local Server.
+
+```sh
+npm run dev
 ```
