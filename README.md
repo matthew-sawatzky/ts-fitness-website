@@ -8,9 +8,6 @@ This project is a landing page for BlueSky Fitness & Health Coaching, a local fi
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
